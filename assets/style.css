@@ -71,13 +71,27 @@ justify-content: space-between;
     justify-content: space-between;
     width: 300px;
     height:250px;
+    background-color: #000000;
+    border-radius: 35px;
+    border-style: solid;
+  
+    /* transform: rotateY(15);
+    transform: rotateZ(5deg);
+}
+    /*  */
 }
 
+
 .avatarimg{
-    width: 175px;
-    position: relative;
-    left: 88px;
-    top: 27px
+    /* width: 175px; */
+    /* position: relative; */
+    /* left: 88px;
+    top: 27px; */
+    border-radius: 153px;
+    border-style: solid;
+    background-color: #000000;
+    border: 35px;
+
 }
 h1{ 
     display: flex;
@@ -136,6 +150,16 @@ input[type=submit] {
     margin-top: 6px; 
     margin-bottom: 16px; 
     resize: vertical 
+  }
+  ul{    
+      display: flex;
+      align-content: center;
+        border-style: solid;
+        background-color: #000000;
+        border-radius: 35px;
+        padding: 10px;
+        margin: 15px;
+        border: 30px;
   }
 
 @media screen and (min-width: 430px){
