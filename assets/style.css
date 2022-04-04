@@ -1,5 +1,5 @@
 body{
-     background-color: #7e57a3;
+     background-color: #226666;
     color: white;
     font-family: 'Alike Angular', serif;
     
@@ -22,11 +22,14 @@ aside{
     flex-direction: column;
     float:right;
     position: relative;
-    background-color: darkred;
+    background-color: #ABABAB;
     height: 830px;
     width: 380px;
     border-radius: 100px;
     margin: 10px;
+    border: #000000;
+    border-style: groove;
+    border-width: 20px;
 }
 
 section{    
@@ -36,9 +39,10 @@ section{
     border:15px;
     border-style:solid;
     border-radius: 45px;
-    border-color: black;
-    background-color:rgb(114, 100, 24) ;
+    border-color: #ABABAB;
+    background-color:#4D5C87 ;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 main{
     display: flex;
@@ -46,17 +50,18 @@ main{
     border: 15px;
     margin: 20px;
     padding: 10px;
-    border-color: black;
+    border-color: #ABABAB;
     border-style: solid;
     border-radius: 25px;
-    background-color: rgb(114, 100, 24);
+    background-color: #4D5C87;
 }
 .card{    
 border: 5px;
 border-style:solid ;
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between;
+justify-content: space-around;
+border-radius: 35px;
 }
 .cardheader{
     display: flex;
@@ -80,7 +85,12 @@ justify-content: space-between;
 }
     /*  */
 }
+#Contact-me{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
+}
 
 .avatarimg{
     /* width: 175px; */
@@ -107,8 +117,14 @@ h2{
 }
 
 p{  
-    position: center;
     display: flex;
+    flex-wrap: wrap;
+    background-color: #000000;
+    border-radius: 35px;
+    font-size: 17px;
+    width: 1070px;
+    height: 110px;
+    align-content: center;
 
 }
 
@@ -120,20 +136,22 @@ footer{
 text-decoration: underline;
 display: flex;
 justify-content: space-around;
-flex-direction: column;
+flex-direction: row;
 margin: 10px;
 list-style-type: none;
+width: 98%;
 }
 .container {
-    border-radius: 5px;
-    background-color: #326808;
+    border-radius: 35px;
+    background-color: #ABABAB;
     padding: 20px;
+    width: 15%;
   }
 input[type=submit]:hover {
     background-color: #7e57a3;
 }
 input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #ABABAB;
     color: #000000;
     padding: 12px 20px;
     border: none;
