@@ -38,7 +38,7 @@ section{
     padding:10px;
     border:15px;
     border-style:solid;
-    border-radius: 45px;
+    border-radius: 15px;
     border-color: #ABABAB;
     background-color:#4D5C87 ;
     flex-wrap: wrap;
@@ -52,18 +52,18 @@ main{
     padding: 10px;
     border-color: #ABABAB;
     border-style: solid;
-    border-radius: 25px;
+    border-radius: 15px;
     background-color: #4D5C87;
     justify-content: center;
 }
-.card{    
+/* .card{    
 border: 5px;
 border-style:solid ;
 /* display: flex; */
 /* flex-wrap: wrap; */
-align-content: stretch;
+/* align-content: stretch;
 border-radius: 25px;
-}
+} */ */
 .bttn{
     border-radius: 25px;
 }
@@ -76,7 +76,7 @@ border-radius: 25px;
 
 }
 .card-img-top{
-width: 75%;
+width: 100%;
 }
 /* .cardimg{   
     display: flex;
@@ -89,7 +89,7 @@ width: 75%;
   
     /* transform: rotateY(15);
     transform: rotateZ(5deg); */
-/* } */ */
+/* } */ 
     /* /*  */
 
 #Contact-me{
@@ -129,9 +129,6 @@ p{
     flex-wrap: wrap;
     background-color: #000000;
     color:white;
-    border-radius: 35px;
-    font-size: 17px;
-    /* width: 1070px; */
     height: 110px;
     align-content: center;
     padding: 10px;
@@ -161,9 +158,7 @@ width: 98%;
     padding: 20px;
     width: 15%; */
   }
-.card-img-top{
 
-}
 input[type=submit]:hover {
     background-color: #7e57a3;
 }
@@ -221,6 +216,10 @@ input[type=submit] {
     max-width: 600px;
     margin: 20px 0 30px;
   }
+.card-img-top:hover {
+    transform: scale(1.3);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
 
 @media screen and (min-width: 430px){
     aside { 
