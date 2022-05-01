@@ -5,7 +5,7 @@ body{
     
 }
 
-.navlist{ 
+/* .navlist{ 
 display: flex;
  justify-content: flex-end;   
 justify-content: space-evenly;
@@ -15,9 +15,9 @@ margin: 15px;
 background-color: rgb(0, 0, 0);
 border-radius: 25px;
 font-size: 35px;
-list-style-type: none;
-}
-aside{  
+list-style-type: none; */
+
+/* aside{  
     display: flex;
     flex-direction: column;
     float:right;
@@ -30,7 +30,7 @@ aside{
     border: #000000;
     border-style: groove;
     border-width: 20px;
-}
+} */
 
 section{    
     display: flex;
@@ -54,6 +54,7 @@ main{
     border-style: solid;
     border-radius: 25px;
     background-color: #4D5C87;
+    justify-content: center;
 }
 .card{    
 border: 5px;
@@ -71,7 +72,10 @@ border-radius: 35px;
     right: -20px;
 
 }
-.cardimg{   
+.card-img-top{
+    
+}
+/* .cardimg{   
     display: flex;
     justify-content: space-between;
     width: 300px;
@@ -81,10 +85,10 @@ border-radius: 35px;
     border-style: solid;
   
     /* transform: rotateY(15);
-    transform: rotateZ(5deg);
-}
-    /*  */
-}
+    transform: rotateZ(5deg); */
+/* } */ */
+    /* /*  */
+
 #Contact-me{
         display: flex;
         flex-direction: column;
@@ -93,10 +97,10 @@ border-radius: 35px;
 }
 
 .avatarimg{
-    /* width: 175px; */
-    /* position: relative; */
-    /* left: 88px;
-    top: 27px; */
+    width: 175px;
+    position: relative;
+    left: 88px;
+    top: 27px;
     border-radius: 153px;
     border-style: solid;
     background-color: #000000;
@@ -107,6 +111,7 @@ h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: white;
 
 }
 h2{
@@ -120,11 +125,13 @@ p{
     display: flex;
     flex-wrap: wrap;
     background-color: #000000;
+    color:white;
     border-radius: 35px;
     font-size: 17px;
-    width: 1070px;
+    /* width: 1070px; */
     height: 110px;
     align-content: center;
+    padding: 10px;
 
 }
 
@@ -143,9 +150,9 @@ width: 98%;
 }
 .container {
     border-radius: 35px;
-    background-color: #ABABAB;
+    /* background-color: #ABABAB;
     padding: 20px;
-    width: 15%;
+    width: 15%; */
   }
 input[type=submit]:hover {
     background-color: #7e57a3;
@@ -173,11 +180,36 @@ input[type=submit] {
       display: flex;
       align-content: center;
         border-style: solid;
-        background-color: #000000;
+        /* background-color: #000000; */
         border-radius: 35px;
         padding: 10px;
         margin: 15px;
         border: 30px;
+  }
+  .hero{
+    background-image: url(./images/picofmeatseniorshowcase.jpg) no-repeat center center/cover;
+    height: 80vh;
+    position: relative;
+    color: #3D3530
+  }
+  
+  .hero .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100% ;
+    padding: 0 20px;
+  
+  }
+  .hero .content h1{
+    font-size: 56px;
+  }
+  .hero .content p {
+    font-size: 56px;
+    max-width: 600px;
+    margin: 20px 0 30px;
   }
 
 @media screen and (min-width: 430px){
