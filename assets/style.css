@@ -113,10 +113,19 @@ border-style:solid ;
 /* align-content: stretch;
 border-radius: 25px;
 } */
-*/ .bttn {
+ .bttn {
     border-radius: 25px;
 }
 
+.avatarimg{
+    border-radius: 55%;
+    box-shadow: 8px 8px 2px 1px rgba(0, 0, 0);
+    margin-bottom: .5rem;
+}
+.iconbox{
+    display: flex;
+    flex-direction: row;
+}
 .cardheader {
     display: flex;
     align-items: flex-start;
