@@ -104,15 +104,6 @@ main {
     background-color: #4D5C87;
     justify-content: center;
 }
-
-/* .card{    
-border: 5px;
-border-style:solid ;
-/* display: flex; */
-/* flex-wrap: wrap; */
-/* align-content: stretch;
-border-radius: 25px;
-} */
  .bttn {
     border-radius: 25px;
 }
@@ -139,38 +130,12 @@ border-radius: 25px;
     width: 100%;
 }
 
-/* .cardimg{   
-    display: flex;
-    justify-content: space-between;
-    width: 300px;
-    height:250px;
-    background-color: #000000;
-    border-radius: 35px;
-    border-style: solid;
-  
-    /* transform: rotateY(15);
-    transform: rotateZ(5deg); */
-/* } */
-/* /*  */
-
 #Contact-me {
     display: flex;
     flex-direction: column;
     align-items: center;
 
 }
-
-/* .avatarimg{
-    width: 175px;
-    position: relative;
-    left: 88px;
-    top: 27px;
-    border-radius: 153px;
-    border-style: solid;
-    background-color: #000000;
-    border: 35px;
-
-} */
 h1 {
     display: flex;
     flex-direction: column;
